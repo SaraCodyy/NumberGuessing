@@ -11,7 +11,7 @@ def get_user_guess():
             else:
                 print("Please enter a number between 1 and 100.")
         except ValueError:
-            print("Invalid input! Please enter a number.")]
+            print("Invalid input! Please enter a number.")
 def play_game():
     print("Welcome to the Number Guessing Game!")
     random_number = generate_random_number()
